@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/home/shuaiyuan/ApacheBench-ab/apr/apr-util-1.5.4/apr/aprutil-build" \
+"--with-apr=/home/shuaiyuan/ApacheBench-ab/apr/apr-util-1.5.4/../apr-1.5.2/apr/apr-build" \
+"$@"

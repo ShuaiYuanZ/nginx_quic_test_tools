@@ -1,0 +1,1669 @@
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.6 [through 192.168.0.5:3128] (be patient)
+INFO: HTTP-CONNECT header == 
+---
+CONNECT 192.168.1.6:443 HTTP/1.1
+User-Agent: Wget/1.20.3 (linux-gnu)
+Host: 192.168.1.6:443
+
+
+---
+INFO: POST header == 
+---
+GET https://192.168.1.6:443/1k.txt HTTP/1.0
+Host: 192.168.1.6
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+---
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+Extension Count: 3
+Peer certificate
+Certificate version: 3
+Valid from: Feb 13 05:57:56 2020 GMT
+Valid to  : Feb 12 05:57:56 2021 GMT
+Public key is 2048 bits
+The issuer name is /C=AU/ST=Some-State/O=Internet Widgits Pty Ltd
+The subject name is /CN=192.168.1.6
+Extension Count: 1
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9d-400"
+Age: 3392
+X-Cache: HIT from BCUI-QAT-SERVER-MOON5
+Via: 1.1 BCUI-QAT-SERVER-MOON5 (squid/4.8)
+Connection: close
+
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1024
+Accept-Ranges: bytes
+Server: nginx/1.15.11
+Date: Mon, 09 Mar 2020 06:30:12 GMT
+Last-Modified: Wed, 04 Dec 2019 05:56:45 GMT
+ETag: "5de74a9

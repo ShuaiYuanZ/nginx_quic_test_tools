@@ -1,0 +1,23 @@
+23:21:15.301472 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [S], seq 1745512800, win 65495, options [mss 65495,sackOK,TS val 2847211871 ecr 0,nop,wscale 7], length 0
+23:21:15.301497 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [S.], seq 1809334618, ack 1745512801, win 65483, options [mss 65495,sackOK,TS val 2847211871 ecr 2847211871,nop,wscale 7], length 0
+23:21:15.301518 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [.], ack 1, win 512, options [nop,nop,TS val 2847211871 ecr 2847211871], length 0
+23:21:15.301910 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [P.], seq 1:518, ack 1, win 512, options [nop,nop,TS val 2847211871 ecr 2847211871], length 517
+23:21:15.301929 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [.], ack 518, win 508, options [nop,nop,TS val 2847211871 ecr 2847211871], length 0
+23:21:15.305870 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [P.], seq 1:1430, ack 518, win 512, options [nop,nop,TS val 2847211875 ecr 2847211871], length 1429
+23:21:15.305899 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [.], ack 1430, win 502, options [nop,nop,TS val 2847211875 ecr 2847211875], length 0
+23:21:15.308000 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [P.], seq 518:598, ack 1430, win 512, options [nop,nop,TS val 2847211877 ecr 2847211875], length 80
+23:21:15.308024 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [.], ack 598, win 512, options [nop,nop,TS val 2847211877 ecr 2847211877], length 0
+23:21:15.308347 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [P.], seq 1430:1701, ack 598, win 512, options [nop,nop,TS val 2847211878 ecr 2847211877], length 271
+23:21:15.308366 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [.], ack 1701, win 510, options [nop,nop,TS val 2847211878 ecr 2847211878], length 0
+23:21:15.308484 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [P.], seq 1701:1972, ack 598, win 512, options [nop,nop,TS val 2847211878 ecr 2847211878], length 271
+23:21:15.308497 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [.], ack 1972, win 508, options [nop,nop,TS val 2847211878 ecr 2847211878], length 0
+23:21:15.308685 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [P.], seq 598:705, ack 1972, win 508, options [nop,nop,TS val 2847211878 ecr 2847211878], length 107
+23:21:15.308699 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [.], ack 705, win 512, options [nop,nop,TS val 2847211878 ecr 2847211878], length 0
+23:21:15.308801 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [P.], seq 1972:3254, ack 705, win 512, options [nop,nop,TS val 2847211878 ecr 2847211878], length 1282
+23:21:15.308815 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [.], ack 3254, win 500, options [nop,nop,TS val 2847211878 ecr 2847211878], length 0
+23:21:15.308846 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [P.], seq 3254:3278, ack 705, win 512, options [nop,nop,TS val 2847211878 ecr 2847211878], length 24
+23:21:15.308856 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [.], ack 3278, win 500, options [nop,nop,TS val 2847211878 ecr 2847211878], length 0
+23:21:15.308890 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [F.], seq 3278, ack 705, win 512, options [nop,nop,TS val 2847211878 ecr 2847211878], length 0
+23:21:15.310530 IP 192.168.1.6.36880 > 192.168.1.6.443: Flags [P.], seq 705:729, ack 3279, win 512, options [nop,nop,TS val 2847211880 ecr 2847211878], length 24
+23:21:15.310554 IP 192.168.1.6.443 > 192.168.1.6.36880: Flags [R], seq 1809337897, win 0, length 0
+
